@@ -1,0 +1,19 @@
+<!----Flow Execution of pipelines---->
+1. changes in code : 
+    - developer make chances in code and commit
+2. Gitlab:
+    - Gitlab automatically trigger the pipeline and run the jobs in the pipeline.
+3.pipeline:
+    - pipeline is a collection of stages and jobs that are executed in a specific order.
+4.gitlab runner:
+    - GitLab Runners execute the pipeline jobs according to the configured stages and dependencies.
+5.CI/CD:
+    - Continuous Integration and Continuous Deployment (CI/CD) is a set of practices that enables automatically building,testing,and deploying software applications.
+    in order to ensure that application are delivered faster.
+6.deploy to staging:
+    - After the successful building and testing of the pipeline, the application is deployed to the staging environment.
+7.Deploy to production:
+    - After the successful deployment to the staging environment, the application is deployed to the production environment.
+    - Continuos delivery : pipeline waits for the manual approval to deploy to production.
+    - Continuous deployment : pipeline automatically deploys to production after all jobs done.
+
